@@ -1,0 +1,15 @@
+myObject:
+  f~float: 3.5
+  i~int: 42
+  b~bool: 1
+  s~string: string
+  font~font:
+    typeface: Helvetica
+    size: 20
+  c~color: [ 0, 1, 0, 1 ]
+objectWithChild:
+  s~string: objectString
+  child.s~string: childString
+ignoredValue:
+  s~string: goodString
+  ignored~string: ignoredString

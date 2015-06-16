@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HoneIOS
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let honeDocumentURL = NSBundle.mainBundle().URLForResource("Dice", withExtension: "hone")
+        HNE.startWithAppIdentifier("557fda80b8ecf4f4041e8f3b", appSecret: "USj1J8KSapikNJWkdEsqg+9vrINKjH/6PoYwEpf11Fo=", documentURL: honeDocumentURL, developmentMode: true, error: nil)
+        
         return true
     }
 

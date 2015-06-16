@@ -1,0 +1,23 @@
+boxes:
+  numberOfBoxes~int: 3
+  title~string: Hello boxes!
+  backgroundColor~color: [ 1, 1, 1, 1 ]
+oneBox:
+  size~float: 64
+  rotation~float: 0
+  backgroundColor~color: [ 0.3401090502738953, 1, 0.1812152415513992, 1 ]
+  label.text~string: Plonk 01234 56789
+  label.font~font:
+    typeface: HoeflerText-Regular
+    size: 16
+    number_style: regular
+    number_spacing: proportional
+  label.textColor~color: [ 0, 0, 0, 1 ]
+  layer.borderColor~color: [ 0.1266574114561081, 0.1805453151464462, 1, 1 ]
+  layer.cornerRadius~float: 8
+  layer.borderWidth~float: 2
+  firstAnimationLength~float: 0.4
+  secondAnimationLength~float: 1
+  animationAlpha~float: 0.4
+  animationScale~float: 1.4
+  label.hidden~bool: 0

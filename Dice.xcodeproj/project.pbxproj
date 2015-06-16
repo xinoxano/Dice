@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49070EFF1B30125C00060EF6 /* Dice.hone in Resources */ = {isa = PBXBuildFile; fileRef = 49070EFE1B30125C00060EF6 /* Dice.hone */; };
+		497A747E1AF7665300F00D1E /* HoneIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495693C81AF21DC5000BCFAC /* HoneIOS.framework */; };
+		497A747F1AF7665300F00D1E /* HoneIOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 495693C81AF21DC5000BCFAC /* HoneIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49D74FDD1AEE170D008844CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74FDC1AEE170D008844CF /* AppDelegate.swift */; };
 		49D74FDF1AEE170D008844CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74FDE1AEE170D008844CF /* ViewController.swift */; };
 		49D74FE21AEE170D008844CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D74FE01AEE170D008844CF /* Main.storyboard */; };
@@ -16,6 +19,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		495693C31AF21DC5000BCFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495693B91AF21DC5000BCFAC /* Hone-iosx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA2F98D61861EC430069F8F1;
+			remoteInfo = "Hone iOS example";
+		};
+		495693C51AF21DC5000BCFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495693B91AF21DC5000BCFAC /* Hone-iosx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EACE57C5195DC4A200C71005;
+			remoteInfo = "Hone OSX example";
+		};
+		495693C71AF21DC5000BCFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495693B91AF21DC5000BCFAC /* Hone-iosx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA1363D019F7B6DE005B29AB;
+			remoteInfo = HoneIOS;
+		};
+		495693C91AF21DC5000BCFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495693B91AF21DC5000BCFAC /* Hone-iosx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA1363DA19F7B6DE005B29AB;
+			remoteInfo = HoneIOSTests;
+		};
+		495693CB1AF21DC5000BCFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495693B91AF21DC5000BCFAC /* Hone-iosx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA359CAA19F7BE1F009367FF;
+			remoteInfo = HoneOSX;
+		};
+		495693CD1AF21DC5000BCFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495693B91AF21DC5000BCFAC /* Hone-iosx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA359CB419F7BE1F009367FF;
+			remoteInfo = HoneOSXTests;
+		};
+		497A74801AF7665300F00D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495693B91AF21DC5000BCFAC /* Hone-iosx.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1363CF19F7B6DE005B29AB;
+			remoteInfo = HoneIOS;
+		};
 		49D74FED1AEE170D008844CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 49D74FCF1AEE170D008844CF /* Project object */;
@@ -25,7 +77,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		497A74821AF7665300F00D1E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				497A747F1AF7665300F00D1E /* HoneIOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		49070EFE1B30125C00060EF6 /* Dice.hone */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Dice.hone; sourceTree = "<group>"; };
+		495693B91AF21DC5000BCFAC /* Hone-iosx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Hone-iosx.xcodeproj"; path = "iosx-master/Hone-iosx.xcodeproj"; sourceTree = "<group>"; };
 		49D74FD71AEE170D008844CF /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D74FDB1AEE170D008844CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49D74FDC1AEE170D008844CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497A747E1AF7665300F00D1E /* HoneIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +125,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		495693BA1AF21DC5000BCFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495693C41AF21DC5000BCFAC /* Hone iOS example.app */,
+				495693C61AF21DC5000BCFAC /* Hone OSX example.app */,
+				495693C81AF21DC5000BCFAC /* HoneIOS.framework */,
+				495693CA1AF21DC5000BCFAC /* HoneIOSTests.xctest */,
+				495693CC1AF21DC5000BCFAC /* HoneOSX.framework */,
+				495693CE1AF21DC5000BCFAC /* HoneOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		49D74FCE1AEE170D008844CF = {
 			isa = PBXGroup;
 			children = (
+				495693B91AF21DC5000BCFAC /* Hone-iosx.xcodeproj */,
 				49D74FD91AEE170D008844CF /* Dice */,
 				49D74FEF1AEE170D008844CF /* DiceTests */,
 				49D74FD81AEE170D008844CF /* Products */,
@@ -77,6 +160,7 @@
 		49D74FD91AEE170D008844CF /* Dice */ = {
 			isa = PBXGroup;
 			children = (
+				49070EFE1B30125C00060EF6 /* Dice.hone */,
 				49D74FDC1AEE170D008844CF /* AppDelegate.swift */,
 				49D74FDE1AEE170D008844CF /* ViewController.swift */,
 				49D74FE01AEE170D008844CF /* Main.storyboard */,
@@ -122,10 +206,12 @@
 				49D74FD31AEE170D008844CF /* Sources */,
 				49D74FD41AEE170D008844CF /* Frameworks */,
 				49D74FD51AEE170D008844CF /* Resources */,
+				497A74821AF7665300F00D1E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				497A74811AF7665300F00D1E /* PBXTargetDependency */,
 			);
 			name = Dice;
 			productName = Dice;
@@ -179,6 +265,12 @@
 			mainGroup = 49D74FCE1AEE170D008844CF;
 			productRefGroup = 49D74FD81AEE170D008844CF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 495693BA1AF21DC5000BCFAC /* Products */;
+					ProjectRef = 495693B91AF21DC5000BCFAC /* Hone-iosx.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				49D74FD61AEE170D008844CF /* Dice */,
@@ -187,6 +279,51 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		495693C41AF21DC5000BCFAC /* Hone iOS example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Hone iOS example.app";
+			remoteRef = 495693C31AF21DC5000BCFAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		495693C61AF21DC5000BCFAC /* Hone OSX example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Hone OSX example.app";
+			remoteRef = 495693C51AF21DC5000BCFAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		495693C81AF21DC5000BCFAC /* HoneIOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HoneIOS.framework;
+			remoteRef = 495693C71AF21DC5000BCFAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		495693CA1AF21DC5000BCFAC /* HoneIOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HoneIOSTests.xctest;
+			remoteRef = 495693C91AF21DC5000BCFAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		495693CC1AF21DC5000BCFAC /* HoneOSX.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HoneOSX.framework;
+			remoteRef = 495693CB1AF21DC5000BCFAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		495693CE1AF21DC5000BCFAC /* HoneOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HoneOSXTests.xctest;
+			remoteRef = 495693CD1AF21DC5000BCFAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		49D74FD51AEE170D008844CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -194,6 +331,7 @@
 			files = (
 				49D74FE21AEE170D008844CF /* Main.storyboard in Resources */,
 				49D74FE71AEE170D008844CF /* LaunchScreen.xib in Resources */,
+				49070EFF1B30125C00060EF6 /* Dice.hone in Resources */,
 				49D74FE41AEE170D008844CF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +366,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		497A74811AF7665300F00D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HoneIOS;
+			targetProxy = 497A74801AF7665300F00D1E /* PBXContainerItemProxy */;
+		};
 		49D74FEE1AEE170D008844CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 49D74FD61AEE170D008844CF /* Dice */;
@@ -411,6 +554,7 @@
 				49D74FF81AEE170D008844CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49D74FF91AEE170D008844CF /* Build configuration list for PBXNativeTarget "DiceTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +563,7 @@
 				49D74FFB1AEE170D008844CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

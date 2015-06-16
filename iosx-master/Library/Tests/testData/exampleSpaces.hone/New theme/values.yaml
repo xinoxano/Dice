@@ -1,0 +1,5 @@
+object1:
+  exampleFloat~float: 68.40000000000001
+  exampleString~string: anotherWat
+object2:
+  anotherInt~int: 42

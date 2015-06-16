@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dice" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +15,47 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EnS-3t-v7b" userLabel="Circle">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZiT-g0-ags">
+                                        <rect key="frame" x="191" y="171" width="26" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerY" secondItem="ZiT-g0-ags" secondAttribute="centerY" id="68y-hV-REJ"/>
+                                    <constraint firstAttribute="height" constant="200" id="Cdb-Ao-Vc3"/>
+                                    <constraint firstAttribute="centerX" secondItem="ZiT-g0-ags" secondAttribute="centerX" id="KdB-aM-o4O"/>
+                                    <constraint firstAttribute="width" constant="200" id="lHH-qH-MEC"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tap me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRo-Gc-zhE">
+                                <rect key="frame" x="273" y="433" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LRo-Gc-zhE" firstAttribute="top" secondItem="EnS-3t-v7b" secondAttribute="bottom" constant="33" id="8L7-BP-tly"/>
+                            <constraint firstAttribute="centerX" secondItem="EnS-3t-v7b" secondAttribute="centerX" id="AW8-VH-pAd"/>
+                            <constraint firstAttribute="centerY" secondItem="EnS-3t-v7b" secondAttribute="centerY" id="PBI-F2-mOl"/>
+                            <constraint firstItem="EnS-3t-v7b" firstAttribute="centerX" secondItem="LRo-Gc-zhE" secondAttribute="centerX" id="R1W-i8-iTT"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="circleHeightConstraint" destination="Cdb-Ao-Vc3" id="sqQ-T5-mPu"/>
+                        <outlet property="circleView" destination="EnS-3t-v7b" id="afA-eZ-6DK"/>
+                        <outlet property="circleWidthConstraint" destination="lHH-qH-MEC" id="UFh-JP-e0g"/>
+                        <outlet property="diceValueLabel" destination="ZiT-g0-ags" id="MUK-nU-Ug6"/>
+                        <outlet property="hintLabel" destination="LRo-Gc-zhE" id="zSH-GS-iBj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

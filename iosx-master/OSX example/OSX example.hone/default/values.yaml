@@ -1,0 +1,9 @@
+box:
+  boxWidthConstraint.constant~float: 320
+  label.font~font:
+    typeface: Helvetica
+    size: 20
+    number_style: regular
+    number_spacing: proportional
+  label.stringValue~string: Hello world 0123456789
+  layer.backgroundColor~color: [ 0.6936365562090785, 0.9859482645988464, 0.5722879101648721, 1 ]

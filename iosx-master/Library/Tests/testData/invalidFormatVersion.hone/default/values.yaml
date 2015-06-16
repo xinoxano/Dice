@@ -1,0 +1,14 @@
+object1:
+  exampleFloat~float: 2.5
+  exampleInt~int: 4
+  exampleString~string: wat
+  exampleFont~font:
+    typeface: Helvetica
+    size: 12
+  exampleColor~color:
+    - 0.6550931490384615
+    - 0.2577657075555068
+    - 0.2577418664785531
+    - 1
+object2:
+  anotherInt~int: 4

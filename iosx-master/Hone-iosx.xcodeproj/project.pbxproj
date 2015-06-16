@@ -1,0 +1,1794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0C00431A16363600676F09 /* bindableObjectTests.hone in Resources */ = {isa = PBXBuildFile; fileRef = EA0C00421A16363600676F09 /* bindableObjectTests.hone */; };
+		EA0C00441A16363600676F09 /* bindableObjectTests.hone in Resources */ = {isa = PBXBuildFile; fileRef = EA0C00421A16363600676F09 /* bindableObjectTests.hone */; };
+		EA1363D519F7B6DE005B29AB /* HoneIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1363D419F7B6DE005B29AB /* HoneIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA1363DB19F7B6DE005B29AB /* HoneIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1363D019F7B6DE005B29AB /* HoneIOS.framework */; };
+		EA2343A61A1A01A200B57CAD /* HNEValueMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = EA2343A41A1A01A200B57CAD /* HNEValueMapper.h */; };
+		EA2343A71A1A01A200B57CAD /* HNEValueMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = EA2343A41A1A01A200B57CAD /* HNEValueMapper.h */; };
+		EA2343A81A1A01A200B57CAD /* HNEValueMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2343A51A1A01A200B57CAD /* HNEValueMapper.m */; };
+		EA2343A91A1A01A200B57CAD /* HNEValueMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2343A51A1A01A200B57CAD /* HNEValueMapper.m */; };
+		EA2343AD1A1A085600B57CAD /* HNEValueMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2343AC1A1A085600B57CAD /* HNEValueMapperTests.m */; };
+		EA2343AF1A1A0A2400B57CAD /* HNEValueMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2343AC1A1A085600B57CAD /* HNEValueMapperTests.m */; };
+		EA2F98DE1861EC430069F8F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2F98DD1861EC430069F8F1 /* UIKit.framework */; };
+		EA2F98E61861EC430069F8F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2F98E51861EC430069F8F1 /* main.m */; };
+		EA2F98EA1861EC430069F8F1 /* HNEIOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2F98E91861EC430069F8F1 /* HNEIOSAppDelegate.m */; };
+		EA2F98ED1861EC430069F8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2F98EB1861EC430069F8F1 /* Main.storyboard */; };
+		EA2F98F31861EC430069F8F1 /* HNEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2F98F21861EC430069F8F1 /* HNEViewController.m */; };
+		EA359CAF19F7BE1F009367FF /* HoneOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = EA359CAE19F7BE1F009367FF /* HoneOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA359CB519F7BE1F009367FF /* HoneOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA359CAA19F7BE1F009367FF /* HoneOSX.framework */; };
+		EA359CC519F7C32E009367FF /* HoneIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1363D019F7B6DE005B29AB /* HoneIOS.framework */; };
+		EA359CC719F7C349009367FF /* HoneIOS.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA1363D019F7B6DE005B29AB /* HoneIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA42487419756565009B2625 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA42487319756565009B2625 /* Images.xcassets */; };
+		EA6FD6CD1A0A3557002C4E5E /* libHNEYACYAML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6FD6C61A0A3542002C4E5E /* libHNEYACYAML.a */; };
+		EA6FD6D01A0A358F002C4E5E /* libHNEYACYAML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6FD6C61A0A3542002C4E5E /* libHNEYACYAML.a */; };
+		EA7B491319F7CFD3008B25EE /* HNE.h in Headers */ = {isa = PBXBuildFile; fileRef = EA361E2A1861F0CB00415AD1 /* HNE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7B491419F7D041008B25EE /* HNE+iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3C504F1949BC3C00B71992 /* HNE+iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7B491519F7D122008B25EE /* HNE.m in Sources */ = {isa = PBXBuildFile; fileRef = EA361E2B1861F0CB00415AD1 /* HNE.m */; };
+		EA7B491619F7D4D0008B25EE /* HNEDocumentParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2731CD197569B6009EDF56 /* HNEDocumentParameter.m */; };
+		EA7B491719F7D4D4008B25EE /* HNEDeviceServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A6AB1926159E0014D317 /* HNEDeviceServer.m */; };
+		EA7B491819F7D5ED008B25EE /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A671192613780014D317 /* GCDWebServer.m */; };
+		EA7B491919F7D5ED008B25EE /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A671192613780014D317 /* GCDWebServer.m */; };
+		EA7B491A19F7D5F0008B25EE /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A673192613780014D317 /* GCDWebServerConnection.m */; };
+		EA7B491B19F7D5F0008B25EE /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A673192613780014D317 /* GCDWebServerConnection.m */; };
+		EA7B491C19F7D5F3008B25EE /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A675192613780014D317 /* GCDWebServerFunctions.m */; };
+		EA7B491D19F7D5F3008B25EE /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A675192613780014D317 /* GCDWebServerFunctions.m */; };
+		EA7B491E19F7D5F5008B25EE /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A679192613780014D317 /* GCDWebServerRequest.m */; };
+		EA7B491F19F7D5F6008B25EE /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A679192613780014D317 /* GCDWebServerRequest.m */; };
+		EA7B492019F7D5F8008B25EE /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A67B192613780014D317 /* GCDWebServerResponse.m */; };
+		EA7B492119F7D5F9008B25EE /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A67B192613780014D317 /* GCDWebServerResponse.m */; };
+		EA7B492219F7D5FD008B25EE /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A67E192613780014D317 /* GCDWebServerDataRequest.m */; };
+		EA7B492319F7D5FD008B25EE /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A67E192613780014D317 /* GCDWebServerDataRequest.m */; };
+		EA7B492419F7D5FF008B25EE /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A680192613780014D317 /* GCDWebServerFileRequest.m */; };
+		EA7B492519F7D600008B25EE /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A680192613780014D317 /* GCDWebServerFileRequest.m */; };
+		EA7B492619F7D607008B25EE /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A687192613780014D317 /* GCDWebServerDataResponse.m */; };
+		EA7B492719F7D608008B25EE /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A687192613780014D317 /* GCDWebServerDataResponse.m */; };
+		EA7B492819F7D60A008B25EE /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A689192613780014D317 /* GCDWebServerErrorResponse.m */; };
+		EA7B492919F7D60B008B25EE /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A689192613780014D317 /* GCDWebServerErrorResponse.m */; };
+		EA7B492A19F7D60D008B25EE /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A68B192613780014D317 /* GCDWebServerFileResponse.m */; };
+		EA7B492B19F7D60E008B25EE /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A68B192613780014D317 /* GCDWebServerFileResponse.m */; };
+		EA7B492C19F7D610008B25EE /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A68D192613790014D317 /* GCDWebServerStreamedResponse.m */; };
+		EA7B492D19F7D610008B25EE /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A68D192613790014D317 /* GCDWebServerStreamedResponse.m */; };
+		EA7B492E19F7D643008B25EE /* HNEShared.m in Sources */ = {isa = PBXBuildFile; fileRef = EADB9F4118719ACA00082692 /* HNEShared.m */; };
+		EA7B492F19F7D645008B25EE /* HNEShared.m in Sources */ = {isa = PBXBuildFile; fileRef = EADB9F4118719ACA00082692 /* HNEShared.m */; };
+		EA7B493019F7D653008B25EE /* HNEParameterStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB5654B18BF893400A5D9A6 /* HNEParameterStore.m */; };
+		EA7B493119F7D653008B25EE /* HNEParameterStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB5654B18BF893400A5D9A6 /* HNEParameterStore.m */; };
+		EA7B493219F7D656008B25EE /* HNEParameterStore+Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3C505A1949E1BB00B71992 /* HNEParameterStore+Cloud.m */; };
+		EA7B493319F7D656008B25EE /* HNEParameterStore+Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3C505A1949E1BB00B71992 /* HNEParameterStore+Cloud.m */; };
+		EA7B493419F7D65A008B25EE /* HNERegisteredCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = EA04A09C1872B7980024FB12 /* HNERegisteredCallback.m */; };
+		EA7B493519F7D65A008B25EE /* HNERegisteredCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = EA04A09C1872B7980024FB12 /* HNERegisteredCallback.m */; };
+		EA7B493619F7D69F008B25EE /* HNEError.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860EE8194AE42A0047BC2B /* HNEError.m */; };
+		EA7B493719F7D69F008B25EE /* HNEError.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860EE8194AE42A0047BC2B /* HNEError.m */; };
+		EA7B493A19F7D89C008B25EE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA39A6AF192618620014D317 /* libz.dylib */; };
+		EA7B493B19F7D8BB008B25EE /* HNERegisteredWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE0E6C1973D95800D40C7D /* HNERegisteredWatcher.m */; };
+		EA7B493C19F7D8BC008B25EE /* HNERegisteredWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE0E6C1973D95800D40C7D /* HNERegisteredWatcher.m */; };
+		EA7B493D19F7D8C5008B25EE /* HNEDocumentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2731CB197569B6009EDF56 /* HNEDocumentObject.m */; };
+		EA7B493E19F7D8C6008B25EE /* HNEDocumentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2731CB197569B6009EDF56 /* HNEDocumentObject.m */; };
+		EA7B494019F7D8EE008B25EE /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA869B61192B9FF700810D7D /* libresolv.dylib */; };
+		EA7B494119F7D946008B25EE /* NSData+YamlFormatHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = EA869B4E192B9C9600810D7D /* NSData+YamlFormatHacks.m */; };
+		EA7B494219F7D946008B25EE /* NSData+YamlFormatHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = EA869B4E192B9C9600810D7D /* NSData+YamlFormatHacks.m */; };
+		EA7B494319F7D9EA008B25EE /* HNE+iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB2762A18699D68001CA291 /* HNE+iOS.m */; };
+		EA7B494419F7DA9A008B25EE /* HNEDeveloperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3C50491949B51000B71992 /* HNEDeveloperViewController.m */; };
+		EA7B494519F7DC3E008B25EE /* UIColor+HNEColorWithArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2731C81975684E009EDF56 /* UIColor+HNEColorWithArray.m */; };
+		EA7B494619F7DC4A008B25EE /* HNEFont+HNETypography.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4685FB19642F6E001A1EC0 /* HNEFont+HNETypography.m */; };
+		EA7B494819F7F342008B25EE /* HNEDeveloperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3C50481949B51000B71992 /* HNEDeveloperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7B494919F7F342008B25EE /* HNEError.h in Headers */ = {isa = PBXBuildFile; fileRef = EA860EE7194AE42A0047BC2B /* HNEError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7B496B19F7F811008B25EE /* HNEGetterWithBlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10B66C18B3F15E004BF1FB /* HNEGetterWithBlocksTests.m */; };
+		EA7B496D19F7F816008B25EE /* HNEDocumentParameterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE4600319AE211A00D2664D /* HNEDocumentParameterTests.m */; };
+		EA7B496F19F7F818008B25EE /* HNEParameterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADBFFA1927692D00646F50 /* HNEParameterTests.m */; };
+		EA7B497119F7F81C008B25EE /* HNEDiskDocumentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA869B43192B8EEA00810D7D /* HNEDiskDocumentTests.m */; };
+		EA7B497319F7F827008B25EE /* HNEKeypathBindingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA46380193D6EA200B0D44C /* HNEKeypathBindingTests.m */; };
+		EA7B497519F7F82A008B25EE /* HNEParameterStoreCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860ED6194AE1BB0047BC2B /* HNEParameterStoreCloudTests.m */; };
+		EA7B497619F7F82B008B25EE /* HNEParameterStoreCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860ED6194AE1BB0047BC2B /* HNEParameterStoreCloudTests.m */; };
+		EA7B497719F7F82D008B25EE /* HNEGetterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5B01C194E403A007DC09A /* HNEGetterTests.m */; };
+		EA7B497919F7F831008B25EE /* HNEGetterWithDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5B020194E415A007DC09A /* HNEGetterWithDefaultsTests.m */; };
+		EA7B497B19F7F835008B25EE /* HNEParameterStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EACEDAC019658A5300AACB7F /* HNEParameterStoreTests.m */; };
+		EA7B497D19F7F838008B25EE /* HNEStartingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3EB8D51967D5D60088B2E8 /* HNEStartingTests.m */; };
+		EA7B497F19F7F83B008B25EE /* HNEWatchingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE0E671973D37600D40C7D /* HNEWatchingTests.m */; };
+		EA7B498119F7F83F008B25EE /* HNEStressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB46B5919B9CBEC001CD827 /* HNEStressTests.m */; };
+		EA7B498619F80012008B25EE /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860EDB194AE3470047BC2B /* OHHTTPStubs.m */; };
+		EA7B498719F80012008B25EE /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860EDB194AE3470047BC2B /* OHHTTPStubs.m */; };
+		EA7B498819F80015008B25EE /* OHHTTPStubsResponse+HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860EDD194AE3470047BC2B /* OHHTTPStubsResponse+HTTPMessage.m */; };
+		EA7B498919F80016008B25EE /* OHHTTPStubsResponse+HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860EDD194AE3470047BC2B /* OHHTTPStubsResponse+HTTPMessage.m */; };
+		EA7B498A19F80019008B25EE /* OHHTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860EDF194AE3470047BC2B /* OHHTTPStubsResponse+JSON.m */; };
+		EA7B498B19F8001A008B25EE /* OHHTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860EDF194AE3470047BC2B /* OHHTTPStubsResponse+JSON.m */; };
+		EA7B498C19F8001C008B25EE /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860EE1194AE3470047BC2B /* OHHTTPStubsResponse.m */; };
+		EA7B498D19F8001D008B25EE /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860EE1194AE3470047BC2B /* OHHTTPStubsResponse.m */; };
+		EA7B499019F801B2008B25EE /* invalidFormatVersion.hone in Resources */ = {isa = PBXBuildFile; fileRef = EA587E04194AED6600FC3AB4 /* invalidFormatVersion.hone */; };
+		EA7B499119F801B3008B25EE /* invalidFormatVersion.hone in Resources */ = {isa = PBXBuildFile; fileRef = EA587E04194AED6600FC3AB4 /* invalidFormatVersion.hone */; };
+		EA7B499219F801B5008B25EE /* example.hone in Resources */ = {isa = PBXBuildFile; fileRef = EA869B46192B90D400810D7D /* example.hone */; };
+		EA7B499319F801B5008B25EE /* example.hone in Resources */ = {isa = PBXBuildFile; fileRef = EA869B46192B90D400810D7D /* example.hone */; };
+		EA7B499619F804A8008B25EE /* HoneOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA359CAA19F7BE1F009367FF /* HoneOSX.framework */; };
+		EA7B499719F804B8008B25EE /* HoneOSX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA359CAA19F7BE1F009367FF /* HoneOSX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA7D027119BC83A800A1B528 /* OSX example.hone in Resources */ = {isa = PBXBuildFile; fileRef = EA7D027019BC83A800A1B528 /* OSX example.hone */; };
+		EA7DBFFF1AA48B8C0091C741 /* HNEStartingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3EB8D51967D5D60088B2E8 /* HNEStartingTests.m */; };
+		EA81F48E192CC9B800A01285 /* iOS example.hone in Resources */ = {isa = PBXBuildFile; fileRef = EA81F48D192CC9B800A01285 /* iOS example.hone */; };
+		EA88804319F8163500A0D5B7 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA88804219F8163500A0D5B7 /* libresolv.dylib */; };
+		EA88804519F8163A00A0D5B7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA88804419F8163A00A0D5B7 /* libz.dylib */; };
+		EA88804619F8169B00A0D5B7 /* HNEDocumentParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2731CD197569B6009EDF56 /* HNEDocumentParameter.m */; };
+		EA88804719F8175F00A0D5B7 /* HNEDeveloperWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA55DAC9196FE17600F57221 /* HNEDeveloperWindowController.m */; };
+		EA88804819F8176800A0D5B7 /* HNE.m in Sources */ = {isa = PBXBuildFile; fileRef = EA361E2B1861F0CB00415AD1 /* HNE.m */; };
+		EA88804919F8177200A0D5B7 /* HNEDeviceServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39A6AB1926159E0014D317 /* HNEDeviceServer.m */; };
+		EA88804A19F8177700A0D5B7 /* HNE+OSX.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB1C044196442CD007C7FD9 /* HNE+OSX.m */; };
+		EA88804B19F8184B00A0D5B7 /* HNEDeveloperWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA55DAC8196FE17600F57221 /* HNEDeveloperWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA88804C19F8184B00A0D5B7 /* HNE+OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB1C043196442CD007C7FD9 /* HNE+OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA88804D19F8184B00A0D5B7 /* HNE.h in Headers */ = {isa = PBXBuildFile; fileRef = EA361E2A1861F0CB00415AD1 /* HNE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA88804E19F8186500A0D5B7 /* HNEError.h in Headers */ = {isa = PBXBuildFile; fileRef = EA860EE7194AE42A0047BC2B /* HNEError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA88804F19F818E500A0D5B7 /* NSColor+HNEColorWithArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2731C11975684E009EDF56 /* NSColor+HNEColorWithArray.m */; };
+		EA88805019F818ED00A0D5B7 /* NSLayoutConstraint+HNEHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2731C41975684E009EDF56 /* NSLayoutConstraint+HNEHelpers.m */; };
+		EA88805119F818EF00A0D5B7 /* NSLayoutConstraint+HNEHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2731C41975684E009EDF56 /* NSLayoutConstraint+HNEHelpers.m */; };
+		EA88805219F818F100A0D5B7 /* HNEFont+HNETypography.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4685FB19642F6E001A1EC0 /* HNEFont+HNETypography.m */; };
+		EA88805319F8191C00A0D5B7 /* HNEDeveloperWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA55DACA196FE17600F57221 /* HNEDeveloperWindowController.xib */; };
+		EA8A7DA51A1A242A0011CDFA /* HNEParameterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADBFFA1927692D00646F50 /* HNEParameterTests.m */; };
+		EAA043331AF2275D007FC5CB /* HNEObjectBindingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0C003F1A16314400676F09 /* HNEObjectBindingTests.m */; };
+		EAA317C81A0A282F00978226 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860ED9194AE3470047BC2B /* OHHTTPStubs+NSURLSessionConfiguration.m */; };
+		EAA317C91A0A283000978226 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EA860ED9194AE3470047BC2B /* OHHTTPStubs+NSURLSessionConfiguration.m */; };
+		EAA317CA1A0A28D600978226 /* HNEGetterWithBlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10B66C18B3F15E004BF1FB /* HNEGetterWithBlocksTests.m */; };
+		EAA317CB1A0A28D900978226 /* HNEDocumentParameterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE4600319AE211A00D2664D /* HNEDocumentParameterTests.m */; };
+		EAA317CD1A0A2ABB00978226 /* HNEDiskDocumentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA869B43192B8EEA00810D7D /* HNEDiskDocumentTests.m */; };
+		EAA317CF1A0A2B6F00978226 /* HNEParameterStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EACEDAC019658A5300AACB7F /* HNEParameterStoreTests.m */; };
+		EAA543DF18BE3B2D00EA8FAC /* HNETestView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA543DE18BE3B2D00EA8FAC /* HNETestView.m */; };
+		EABBC36E1AF22F9D001DB1A9 /* HNEObjectBindingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0C003F1A16314400676F09 /* HNEObjectBindingTests.m */; };
+		EACB36E51A10E8900052F42E /* NSObject+HNE.h in Headers */ = {isa = PBXBuildFile; fileRef = EACB36E31A10E8900052F42E /* NSObject+HNE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EACB36E61A10E8900052F42E /* NSObject+HNE.h in Headers */ = {isa = PBXBuildFile; fileRef = EACB36E31A10E8900052F42E /* NSObject+HNE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EACB36E71A10E8900052F42E /* NSObject+HNE.m in Sources */ = {isa = PBXBuildFile; fileRef = EACB36E41A10E8900052F42E /* NSObject+HNE.m */; };
+		EACB36E81A10E8900052F42E /* NSObject+HNE.m in Sources */ = {isa = PBXBuildFile; fileRef = EACB36E41A10E8900052F42E /* NSObject+HNE.m */; };
+		EACE57C7195DC4A200C71005 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACE57C6195DC4A200C71005 /* Cocoa.framework */; };
+		EACE57D3195DC4A200C71005 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACE57D2195DC4A200C71005 /* main.m */; };
+		EACE57DA195DC4A200C71005 /* HNEOSXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACE57D9195DC4A200C71005 /* HNEOSXAppDelegate.m */; };
+		EACE57DD195DC4A200C71005 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACE57DB195DC4A200C71005 /* MainMenu.xib */; };
+		EACE57DF195DC4A200C71005 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACE57DE195DC4A200C71005 /* Images.xcassets */; };
+		EACE57FC195DC57900C71005 /* HNEWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACE57FA195DC57900C71005 /* HNEWindowController.m */; };
+		EACE57FD195DC57900C71005 /* HNEWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACE57FB195DC57900C71005 /* HNEWindowController.xib */; };
+		EAED4F6B1A5ADFA400522047 /* exampleSpaces.hone in Resources */ = {isa = PBXBuildFile; fileRef = EAED4F6A1A5ADFA400522047 /* exampleSpaces.hone */; };
+		EAED4F6C1A5ADFA400522047 /* exampleSpaces.hone in Resources */ = {isa = PBXBuildFile; fileRef = EAED4F6A1A5ADFA400522047 /* exampleSpaces.hone */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA1363DC19F7B6DE005B29AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA2F98CE1861EC430069F8F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1363CF19F7B6DE005B29AB;
+			remoteInfo = HoneIOS;
+		};
+		EA359CB619F7BE1F009367FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA2F98CE1861EC430069F8F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA359CA919F7BE1F009367FF;
+			remoteInfo = HoneOSX;
+		};
+		EA359CC319F7C325009367FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA2F98CE1861EC430069F8F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1363CF19F7B6DE005B29AB;
+			remoteInfo = HoneIOS;
+		};
+		EA6FD6C51A0A3542002C4E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA869B51192B9F4D00810D7D /* HNEYACYAML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7DDC030E156541F8001832F5;
+			remoteInfo = HNEYACYAML;
+		};
+		EA6FD6C91A0A3542002C4E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA869B51192B9F4D00810D7D /* HNEYACYAML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7DE3E3AC15654430006663D2;
+			remoteInfo = libYAML;
+		};
+		EA6FD6CB1A0A3552002C4E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA869B51192B9F4D00810D7D /* HNEYACYAML.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DDC030D156541F8001832F5;
+			remoteInfo = HNEYACYAML;
+		};
+		EA6FD6CE1A0A358B002C4E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA869B51192B9F4D00810D7D /* HNEYACYAML.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DDC030D156541F8001832F5;
+			remoteInfo = HNEYACYAML;
+		};
+		EA7B499419F8048D008B25EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA2F98CE1861EC430069F8F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA359CA919F7BE1F009367FF;
+			remoteInfo = HoneOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA359CC619F7C334009367FF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EA359CC719F7C349009367FF /* HoneIOS.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA91DC74196C156100CAF9ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EA7B499719F804B8008B25EE /* HoneOSX.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA04A09B1872B7980024FB12 /* HNERegisteredCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNERegisteredCallback.h; sourceTree = "<group>"; };
+		EA04A09C1872B7980024FB12 /* HNERegisteredCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNERegisteredCallback.m; sourceTree = "<group>"; };
+		EA0C003F1A16314400676F09 /* HNEObjectBindingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEObjectBindingTests.m; sourceTree = "<group>"; };
+		EA0C00421A16363600676F09 /* bindableObjectTests.hone */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = bindableObjectTests.hone; sourceTree = "<group>"; };
+		EA10B66C18B3F15E004BF1FB /* HNEGetterWithBlocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNEGetterWithBlocksTests.m; sourceTree = "<group>"; };
+		EA1363D019F7B6DE005B29AB /* HoneIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HoneIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1363D319F7B6DE005B29AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1363D419F7B6DE005B29AB /* HoneIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoneIOS.h; sourceTree = "<group>"; };
+		EA1363DA19F7B6DE005B29AB /* HoneIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1363E019F7B6DE005B29AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1C0CDB192C9FED00E5198E /* HNEParameterStore+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HNEParameterStore+Private.h"; sourceTree = "<group>"; };
+		EA2343A41A1A01A200B57CAD /* HNEValueMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNEValueMapper.h; sourceTree = "<group>"; };
+		EA2343A51A1A01A200B57CAD /* HNEValueMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEValueMapper.m; sourceTree = "<group>"; };
+		EA2343AC1A1A085600B57CAD /* HNEValueMapperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEValueMapperTests.m; sourceTree = "<group>"; };
+		EA2731C01975684E009EDF56 /* NSColor+HNEColorWithArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSColor+HNEColorWithArray.h"; sourceTree = "<group>"; };
+		EA2731C11975684E009EDF56 /* NSColor+HNEColorWithArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSColor+HNEColorWithArray.m"; sourceTree = "<group>"; };
+		EA2731C31975684E009EDF56 /* NSLayoutConstraint+HNEHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+HNEHelpers.h"; sourceTree = "<group>"; };
+		EA2731C41975684E009EDF56 /* NSLayoutConstraint+HNEHelpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+HNEHelpers.m"; sourceTree = "<group>"; };
+		EA2731C71975684E009EDF56 /* UIColor+HNEColorWithArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HNEColorWithArray.h"; sourceTree = "<group>"; };
+		EA2731C81975684E009EDF56 /* UIColor+HNEColorWithArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HNEColorWithArray.m"; sourceTree = "<group>"; };
+		EA2731CA197569B6009EDF56 /* HNEDocumentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNEDocumentObject.h; sourceTree = "<group>"; };
+		EA2731CB197569B6009EDF56 /* HNEDocumentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEDocumentObject.m; sourceTree = "<group>"; };
+		EA2731CC197569B6009EDF56 /* HNEDocumentParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNEDocumentParameter.h; sourceTree = "<group>"; };
+		EA2731CD197569B6009EDF56 /* HNEDocumentParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEDocumentParameter.m; sourceTree = "<group>"; };
+		EA2731D619756A02009EDF56 /* HNEDocumentParameter+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HNEDocumentParameter+Private.h"; sourceTree = "<group>"; };
+		EA2731D719756C64009EDF56 /* HNE+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HNE+Private.h"; sourceTree = "<group>"; };
+		EA2F98D61861EC430069F8F1 /* Hone iOS example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hone iOS example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2F98D91861EC430069F8F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA2F98DB1861EC430069F8F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA2F98DD1861EC430069F8F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA2F98E11861EC430069F8F1 /* HoneExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoneExample-Info.plist"; sourceTree = "<group>"; };
+		EA2F98E51861EC430069F8F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA2F98E71861EC430069F8F1 /* HoneExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoneExample-Prefix.pch"; sourceTree = "<group>"; };
+		EA2F98E81861EC430069F8F1 /* HNEIOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNEIOSAppDelegate.h; sourceTree = "<group>"; };
+		EA2F98E91861EC430069F8F1 /* HNEIOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNEIOSAppDelegate.m; sourceTree = "<group>"; };
+		EA2F98EC1861EC430069F8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA2F98F11861EC430069F8F1 /* HNEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNEViewController.h; sourceTree = "<group>"; };
+		EA2F98F21861EC430069F8F1 /* HNEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNEViewController.m; sourceTree = "<group>"; };
+		EA2F98FB1861EC430069F8F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA359CAA19F7BE1F009367FF /* HoneOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HoneOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA359CAD19F7BE1F009367FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA359CAE19F7BE1F009367FF /* HoneOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoneOSX.h; sourceTree = "<group>"; };
+		EA359CB419F7BE1F009367FF /* HoneOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA359CBA19F7BE20009367FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA361E2A1861F0CB00415AD1 /* HNE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HNE.h; path = Library/Source/HNE.h; sourceTree = SOURCE_ROOT; };
+		EA361E2B1861F0CB00415AD1 /* HNE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNE.m; sourceTree = "<group>"; };
+		EA39A670192613780014D317 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		EA39A671192613780014D317 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		EA39A672192613780014D317 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		EA39A673192613780014D317 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		EA39A674192613780014D317 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		EA39A675192613780014D317 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		EA39A676192613780014D317 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		EA39A677192613780014D317 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		EA39A678192613780014D317 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		EA39A679192613780014D317 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		EA39A67A192613780014D317 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		EA39A67B192613780014D317 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		EA39A67D192613780014D317 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		EA39A67E192613780014D317 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		EA39A67F192613780014D317 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		EA39A680192613780014D317 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		EA39A681192613780014D317 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		EA39A682192613780014D317 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		EA39A683192613780014D317 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		EA39A684192613780014D317 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		EA39A686192613780014D317 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		EA39A687192613780014D317 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		EA39A688192613780014D317 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		EA39A689192613780014D317 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		EA39A68A192613780014D317 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		EA39A68B192613780014D317 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		EA39A68C192613790014D317 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		EA39A68D192613790014D317 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		EA39A6AA1926159E0014D317 /* HNEDeviceServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNEDeviceServer.h; sourceTree = "<group>"; };
+		EA39A6AB1926159E0014D317 /* HNEDeviceServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEDeviceServer.m; sourceTree = "<group>"; };
+		EA39A6AF192618620014D317 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EA39A6B2192618DD0014D317 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EA3C50481949B51000B71992 /* HNEDeveloperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNEDeveloperViewController.h; sourceTree = "<group>"; };
+		EA3C50491949B51000B71992 /* HNEDeveloperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEDeveloperViewController.m; sourceTree = "<group>"; };
+		EA3C504F1949BC3C00B71992 /* HNE+iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HNE+iOS.h"; path = "iOS/HNE+iOS.h"; sourceTree = "<group>"; };
+		EA3C50591949E1BB00B71992 /* HNEParameterStore+Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HNEParameterStore+Cloud.h"; sourceTree = "<group>"; };
+		EA3C505A1949E1BB00B71992 /* HNEParameterStore+Cloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HNEParameterStore+Cloud.m"; sourceTree = "<group>"; };
+		EA3EB8D51967D5D60088B2E8 /* HNEStartingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEStartingTests.m; sourceTree = "<group>"; };
+		EA42487319756565009B2625 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA4685FA19642F6E001A1EC0 /* HNEFont+HNETypography.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HNEFont+HNETypography.h"; sourceTree = "<group>"; };
+		EA4685FB19642F6E001A1EC0 /* HNEFont+HNETypography.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HNEFont+HNETypography.m"; sourceTree = "<group>"; };
+		EA4D56441941935700829D47 /* HNEType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNEType.h; sourceTree = "<group>"; };
+		EA55DAC8196FE17600F57221 /* HNEDeveloperWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNEDeveloperWindowController.h; sourceTree = "<group>"; };
+		EA55DAC9196FE17600F57221 /* HNEDeveloperWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEDeveloperWindowController.m; sourceTree = "<group>"; };
+		EA55DACA196FE17600F57221 /* HNEDeveloperWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNEDeveloperWindowController.xib; sourceTree = "<group>"; };
+		EA587E04194AED6600FC3AB4 /* invalidFormatVersion.hone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = invalidFormatVersion.hone; sourceTree = "<group>"; };
+		EA67930019DE8E1600253F97 /* HNEFontTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEFontTests.m; sourceTree = "<group>"; };
+		EA67930719DE933300253F97 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EA7D027019BC83A800A1B528 /* OSX example.hone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "OSX example.hone"; sourceTree = "<group>"; };
+		EA7D9B7F18689C86002ACE95 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EA7D9B8118689C8C002ACE95 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EA81F48D192CC9B800A01285 /* iOS example.hone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "iOS example.hone"; sourceTree = "<group>"; };
+		EA860ED6194AE1BB0047BC2B /* HNEParameterStoreCloudTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEParameterStoreCloudTests.m; sourceTree = "<group>"; };
+		EA860ED9194AE3470047BC2B /* OHHTTPStubs+NSURLSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OHHTTPStubs+NSURLSessionConfiguration.m"; sourceTree = "<group>"; };
+		EA860EDA194AE3470047BC2B /* OHHTTPStubs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHHTTPStubs.h; sourceTree = "<group>"; };
+		EA860EDB194AE3470047BC2B /* OHHTTPStubs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHHTTPStubs.m; sourceTree = "<group>"; };
+		EA860EDC194AE3470047BC2B /* OHHTTPStubsResponse+HTTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubsResponse+HTTPMessage.h"; sourceTree = "<group>"; };
+		EA860EDD194AE3470047BC2B /* OHHTTPStubsResponse+HTTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OHHTTPStubsResponse+HTTPMessage.m"; sourceTree = "<group>"; };
+		EA860EDE194AE3470047BC2B /* OHHTTPStubsResponse+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubsResponse+JSON.h"; sourceTree = "<group>"; };
+		EA860EDF194AE3470047BC2B /* OHHTTPStubsResponse+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OHHTTPStubsResponse+JSON.m"; sourceTree = "<group>"; };
+		EA860EE0194AE3470047BC2B /* OHHTTPStubsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHHTTPStubsResponse.h; sourceTree = "<group>"; };
+		EA860EE1194AE3470047BC2B /* OHHTTPStubsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHHTTPStubsResponse.m; sourceTree = "<group>"; };
+		EA860EE7194AE42A0047BC2B /* HNEError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HNEError.h; path = Library/Source/HNEError.h; sourceTree = SOURCE_ROOT; };
+		EA860EE8194AE42A0047BC2B /* HNEError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEError.m; sourceTree = "<group>"; };
+		EA869B43192B8EEA00810D7D /* HNEDiskDocumentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEDiskDocumentTests.m; sourceTree = "<group>"; };
+		EA869B46192B90D400810D7D /* example.hone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = example.hone; sourceTree = "<group>"; };
+		EA869B4D192B9C9600810D7D /* NSData+YamlFormatHacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YamlFormatHacks.h"; sourceTree = "<group>"; };
+		EA869B4E192B9C9600810D7D /* NSData+YamlFormatHacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YamlFormatHacks.m"; sourceTree = "<group>"; };
+		EA869B51192B9F4D00810D7D /* HNEYACYAML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HNEYACYAML.xcodeproj; path = YACYAML/HNEYACYAML.xcodeproj; sourceTree = "<group>"; };
+		EA869B61192B9FF700810D7D /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		EA88804219F8163500A0D5B7 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libresolv.dylib; sourceTree = DEVELOPER_DIR; };
+		EA88804419F8163A00A0D5B7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		EAA46380193D6EA200B0D44C /* HNEKeypathBindingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEKeypathBindingTests.m; sourceTree = "<group>"; };
+		EAA543DD18BE3B2D00EA8FAC /* HNETestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNETestView.h; sourceTree = "<group>"; };
+		EAA543DE18BE3B2D00EA8FAC /* HNETestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNETestView.m; sourceTree = "<group>"; };
+		EAADBFFA1927692D00646F50 /* HNEParameterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEParameterTests.m; sourceTree = "<group>"; };
+		EAAE0E671973D37600D40C7D /* HNEWatchingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEWatchingTests.m; sourceTree = "<group>"; };
+		EAAE0E6B1973D95800D40C7D /* HNERegisteredWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNERegisteredWatcher.h; sourceTree = "<group>"; };
+		EAAE0E6C1973D95800D40C7D /* HNERegisteredWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNERegisteredWatcher.m; sourceTree = "<group>"; };
+		EAB1C043196442CD007C7FD9 /* HNE+OSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HNE+OSX.h"; path = "OSX/HNE+OSX.h"; sourceTree = "<group>"; };
+		EAB1C044196442CD007C7FD9 /* HNE+OSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HNE+OSX.m"; path = "OSX/HNE+OSX.m"; sourceTree = "<group>"; };
+		EAB1C0A119645952007C7FD9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		EAB1C0A4196459D4007C7FD9 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libresolv.dylib; sourceTree = DEVELOPER_DIR; };
+		EAB1C0A6196459DA007C7FD9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		EAB2762A18699D68001CA291 /* HNE+iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HNE+iOS.m"; path = "iOS/HNE+iOS.m"; sourceTree = "<group>"; };
+		EAB46B5919B9CBEC001CD827 /* HNEStressTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEStressTests.m; sourceTree = "<group>"; };
+		EAB5654A18BF893400A5D9A6 /* HNEParameterStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNEParameterStore.h; sourceTree = "<group>"; };
+		EAB5654B18BF893400A5D9A6 /* HNEParameterStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEParameterStore.m; sourceTree = "<group>"; };
+		EACB36E31A10E8900052F42E /* NSObject+HNE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HNE.h"; sourceTree = "<group>"; };
+		EACB36E41A10E8900052F42E /* NSObject+HNE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HNE.m"; sourceTree = "<group>"; };
+		EACE57C5195DC4A200C71005 /* Hone OSX example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hone OSX example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACE57C6195DC4A200C71005 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		EACE57C9195DC4A200C71005 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EACE57CA195DC4A200C71005 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EACE57CB195DC4A200C71005 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EACE57CE195DC4A200C71005 /* HoneExampleOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoneExampleOSX-Info.plist"; sourceTree = "<group>"; };
+		EACE57D2195DC4A200C71005 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EACE57D4195DC4A200C71005 /* HoneExampleOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoneExampleOSX-Prefix.pch"; sourceTree = "<group>"; };
+		EACE57D8195DC4A200C71005 /* HNEOSXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNEOSXAppDelegate.h; sourceTree = "<group>"; };
+		EACE57D9195DC4A200C71005 /* HNEOSXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNEOSXAppDelegate.m; sourceTree = "<group>"; };
+		EACE57DC195DC4A200C71005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EACE57DE195DC4A200C71005 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EACE57F9195DC57900C71005 /* HNEWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNEWindowController.h; sourceTree = "<group>"; };
+		EACE57FA195DC57900C71005 /* HNEWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEWindowController.m; sourceTree = "<group>"; };
+		EACE57FB195DC57900C71005 /* HNEWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNEWindowController.xib; sourceTree = "<group>"; };
+		EACEDAC019658A5300AACB7F /* HNEParameterStoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEParameterStoreTests.m; sourceTree = "<group>"; };
+		EADB9F4018719ACA00082692 /* HNEShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNEShared.h; sourceTree = "<group>"; };
+		EADB9F4118719ACA00082692 /* HNEShared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEShared.m; sourceTree = "<group>"; };
+		EAE4600319AE211A00D2664D /* HNEDocumentParameterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEDocumentParameterTests.m; sourceTree = "<group>"; };
+		EAE5B01C194E403A007DC09A /* HNEGetterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEGetterTests.m; sourceTree = "<group>"; };
+		EAE5B020194E415A007DC09A /* HNEGetterWithDefaultsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEGetterWithDefaultsTests.m; sourceTree = "<group>"; };
+		EAED4F6A1A5ADFA400522047 /* exampleSpaces.hone */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = exampleSpaces.hone; sourceTree = "<group>"; };
+		EAEDD69019A23B9100BCD320 /* HNEDocumentObject+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HNEDocumentObject+Private.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1363CC19F7B6DE005B29AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6FD6CD1A0A3557002C4E5E /* libHNEYACYAML.a in Frameworks */,
+				EA7B494019F7D8EE008B25EE /* libresolv.dylib in Frameworks */,
+				EA7B493A19F7D89C008B25EE /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1363D719F7B6DE005B29AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1363DB19F7B6DE005B29AB /* HoneIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2F98D31861EC430069F8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA359CC519F7C32E009367FF /* HoneIOS.framework in Frameworks */,
+				EA2F98DE1861EC430069F8F1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA359CA619F7BE1F009367FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6FD6D01A0A358F002C4E5E /* libHNEYACYAML.a in Frameworks */,
+				EA88804519F8163A00A0D5B7 /* libz.dylib in Frameworks */,
+				EA88804319F8163500A0D5B7 /* libresolv.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA359CB119F7BE1F009367FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA359CB519F7BE1F009367FF /* HoneOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACE57C2195DC4A200C71005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7B499619F804A8008B25EE /* HoneOSX.framework in Frameworks */,
+				EACE57C7195DC4A200C71005 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA10B65418B3F15D004BF1FB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EA1363D119F7B6DE005B29AB /* iOS */,
+				EACE5805195DC76B00C71005 /* OS X */,
+				EA2731BE1975684E009EDF56 /* Extensions */,
+				EA7D99D518689BDD002ACE95 /* Vendor */,
+				EAB5654918BF88D200A5D9A6 /* Model */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EA10B66618B3F15E004BF1FB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1363DE19F7B6DE005B29AB /* HoneIOSTests */,
+				EA359CB819F7BE20009367FF /* HoneOSXTests */,
+				EA860ED8194AE3470047BC2B /* OHHttpStubs */,
+				EA869B45192B90D400810D7D /* testData */,
+				EA10B66C18B3F15E004BF1FB /* HNEGetterWithBlocksTests.m */,
+				EAE4600319AE211A00D2664D /* HNEDocumentParameterTests.m */,
+				EAADBFFA1927692D00646F50 /* HNEParameterTests.m */,
+				EA869B43192B8EEA00810D7D /* HNEDiskDocumentTests.m */,
+				EAA46380193D6EA200B0D44C /* HNEKeypathBindingTests.m */,
+				EA860ED6194AE1BB0047BC2B /* HNEParameterStoreCloudTests.m */,
+				EAE5B01C194E403A007DC09A /* HNEGetterTests.m */,
+				EAE5B020194E415A007DC09A /* HNEGetterWithDefaultsTests.m */,
+				EACEDAC019658A5300AACB7F /* HNEParameterStoreTests.m */,
+				EA3EB8D51967D5D60088B2E8 /* HNEStartingTests.m */,
+				EAAE0E671973D37600D40C7D /* HNEWatchingTests.m */,
+				EAB46B5919B9CBEC001CD827 /* HNEStressTests.m */,
+				EA67930019DE8E1600253F97 /* HNEFontTests.m */,
+				EA0C003F1A16314400676F09 /* HNEObjectBindingTests.m */,
+				EA2343AC1A1A085600B57CAD /* HNEValueMapperTests.m */,
+			);
+			name = Tests;
+			path = Library/Tests;
+			sourceTree = "<group>";
+		};
+		EA1363D119F7B6DE005B29AB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA1363D419F7B6DE005B29AB /* HoneIOS.h */,
+				EA1363D319F7B6DE005B29AB /* Info.plist */,
+				EA3C50481949B51000B71992 /* HNEDeveloperViewController.h */,
+				EA3C50491949B51000B71992 /* HNEDeveloperViewController.m */,
+			);
+			name = iOS;
+			path = Source/iOS;
+			sourceTree = "<group>";
+		};
+		EA1363DE19F7B6DE005B29AB /* HoneIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1363E019F7B6DE005B29AB /* Info.plist */,
+			);
+			path = HoneIOSTests;
+			sourceTree = "<group>";
+		};
+		EA2731BE1975684E009EDF56 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EA2731BF1975684E009EDF56 /* AppKit */,
+				EA2731C21975684E009EDF56 /* AppKit + UIKit */,
+				EA2731C51975684E009EDF56 /* Foundation */,
+				EA2731C61975684E009EDF56 /* UIKit */,
+			);
+			name = Extensions;
+			path = Source/Extensions;
+			sourceTree = "<group>";
+		};
+		EA2731BF1975684E009EDF56 /* AppKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA2731C01975684E009EDF56 /* NSColor+HNEColorWithArray.h */,
+				EA2731C11975684E009EDF56 /* NSColor+HNEColorWithArray.m */,
+			);
+			path = AppKit;
+			sourceTree = "<group>";
+		};
+		EA2731C21975684E009EDF56 /* AppKit + UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA2731C31975684E009EDF56 /* NSLayoutConstraint+HNEHelpers.h */,
+				EA2731C41975684E009EDF56 /* NSLayoutConstraint+HNEHelpers.m */,
+				EA4685FA19642F6E001A1EC0 /* HNEFont+HNETypography.h */,
+				EA4685FB19642F6E001A1EC0 /* HNEFont+HNETypography.m */,
+			);
+			path = "AppKit + UIKit";
+			sourceTree = "<group>";
+		};
+		EA2731C51975684E009EDF56 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				EA869B4D192B9C9600810D7D /* NSData+YamlFormatHacks.h */,
+				EA869B4E192B9C9600810D7D /* NSData+YamlFormatHacks.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		EA2731C61975684E009EDF56 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA2731C71975684E009EDF56 /* UIColor+HNEColorWithArray.h */,
+				EA2731C81975684E009EDF56 /* UIColor+HNEColorWithArray.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		EA2F98CD1861EC430069F8F1 = {
+			isa = PBXGroup;
+			children = (
+				EA10B65418B3F15D004BF1FB /* Library */,
+				EA10B66618B3F15E004BF1FB /* Tests */,
+				EA2F98DF1861EC430069F8F1 /* iOS example */,
+				EACE57CC195DC4A200C71005 /* OSX example */,
+				EA2F98D81861EC430069F8F1 /* Frameworks */,
+				EA2F98D71861EC430069F8F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2F98D71861EC430069F8F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA2F98D61861EC430069F8F1 /* Hone iOS example.app */,
+				EACE57C5195DC4A200C71005 /* Hone OSX example.app */,
+				EA1363D019F7B6DE005B29AB /* HoneIOS.framework */,
+				EA1363DA19F7B6DE005B29AB /* HoneIOSTests.xctest */,
+				EA359CAA19F7BE1F009367FF /* HoneOSX.framework */,
+				EA359CB419F7BE1F009367FF /* HoneOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA2F98D81861EC430069F8F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA88804419F8163A00A0D5B7 /* libz.dylib */,
+				EA88804219F8163500A0D5B7 /* libresolv.dylib */,
+				EA67930719DE933300253F97 /* CoreText.framework */,
+				EAB1C0A6196459DA007C7FD9 /* libz.dylib */,
+				EAB1C0A4196459D4007C7FD9 /* libresolv.dylib */,
+				EAB1C0A119645952007C7FD9 /* CFNetwork.framework */,
+				EA869B61192B9FF700810D7D /* libresolv.dylib */,
+				EA39A6B2192618DD0014D317 /* MobileCoreServices.framework */,
+				EA39A6AF192618620014D317 /* libz.dylib */,
+				EA7D9B8118689C8C002ACE95 /* Security.framework */,
+				EA7D9B7F18689C86002ACE95 /* CFNetwork.framework */,
+				EA2F98D91861EC430069F8F1 /* Foundation.framework */,
+				EA2F98DB1861EC430069F8F1 /* CoreGraphics.framework */,
+				EA2F98DD1861EC430069F8F1 /* UIKit.framework */,
+				EA2F98FB1861EC430069F8F1 /* XCTest.framework */,
+				EACE57C6195DC4A200C71005 /* Cocoa.framework */,
+				EACE57C8195DC4A200C71005 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA2F98DF1861EC430069F8F1 /* iOS example */ = {
+			isa = PBXGroup;
+			children = (
+				EA81F48D192CC9B800A01285 /* iOS example.hone */,
+				EA2F98E81861EC430069F8F1 /* HNEIOSAppDelegate.h */,
+				EA2F98E91861EC430069F8F1 /* HNEIOSAppDelegate.m */,
+				EA2F98EB1861EC430069F8F1 /* Main.storyboard */,
+				EA2F98F11861EC430069F8F1 /* HNEViewController.h */,
+				EA2F98F21861EC430069F8F1 /* HNEViewController.m */,
+				EAA543DD18BE3B2D00EA8FAC /* HNETestView.h */,
+				EAA543DE18BE3B2D00EA8FAC /* HNETestView.m */,
+				EA2F98E01861EC430069F8F1 /* Supporting Files */,
+				EA42487319756565009B2625 /* Images.xcassets */,
+			);
+			path = "iOS example";
+			sourceTree = "<group>";
+		};
+		EA2F98E01861EC430069F8F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2F98E11861EC430069F8F1 /* HoneExample-Info.plist */,
+				EA2F98E51861EC430069F8F1 /* main.m */,
+				EA2F98E71861EC430069F8F1 /* HoneExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA359CB819F7BE20009367FF /* HoneOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA359CBA19F7BE20009367FF /* Info.plist */,
+			);
+			path = HoneOSXTests;
+			sourceTree = "<group>";
+		};
+		EA39A66E192613780014D317 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				EA39A66F192613780014D317 /* Core */,
+				EA39A67C192613780014D317 /* Requests */,
+				EA39A685192613780014D317 /* Responses */,
+			);
+			name = GCDWebServer;
+			path = GCDWebServer/GCDWebServer;
+			sourceTree = "<group>";
+		};
+		EA39A66F192613780014D317 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EA39A670192613780014D317 /* GCDWebServer.h */,
+				EA39A671192613780014D317 /* GCDWebServer.m */,
+				EA39A672192613780014D317 /* GCDWebServerConnection.h */,
+				EA39A673192613780014D317 /* GCDWebServerConnection.m */,
+				EA39A674192613780014D317 /* GCDWebServerFunctions.h */,
+				EA39A675192613780014D317 /* GCDWebServerFunctions.m */,
+				EA39A676192613780014D317 /* GCDWebServerHTTPStatusCodes.h */,
+				EA39A677192613780014D317 /* GCDWebServerPrivate.h */,
+				EA39A678192613780014D317 /* GCDWebServerRequest.h */,
+				EA39A679192613780014D317 /* GCDWebServerRequest.m */,
+				EA39A67A192613780014D317 /* GCDWebServerResponse.h */,
+				EA39A67B192613780014D317 /* GCDWebServerResponse.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EA39A67C192613780014D317 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				EA39A67D192613780014D317 /* GCDWebServerDataRequest.h */,
+				EA39A67E192613780014D317 /* GCDWebServerDataRequest.m */,
+				EA39A67F192613780014D317 /* GCDWebServerFileRequest.h */,
+				EA39A680192613780014D317 /* GCDWebServerFileRequest.m */,
+				EA39A681192613780014D317 /* GCDWebServerMultiPartFormRequest.h */,
+				EA39A682192613780014D317 /* GCDWebServerMultiPartFormRequest.m */,
+				EA39A683192613780014D317 /* GCDWebServerURLEncodedFormRequest.h */,
+				EA39A684192613780014D317 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		EA39A685192613780014D317 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				EA39A686192613780014D317 /* GCDWebServerDataResponse.h */,
+				EA39A687192613780014D317 /* GCDWebServerDataResponse.m */,
+				EA39A688192613780014D317 /* GCDWebServerErrorResponse.h */,
+				EA39A689192613780014D317 /* GCDWebServerErrorResponse.m */,
+				EA39A68A192613780014D317 /* GCDWebServerFileResponse.h */,
+				EA39A68B192613780014D317 /* GCDWebServerFileResponse.m */,
+				EA39A68C192613790014D317 /* GCDWebServerStreamedResponse.h */,
+				EA39A68D192613790014D317 /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		EA6FD6C01A0A3542002C4E5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA6FD6C61A0A3542002C4E5E /* libHNEYACYAML.a */,
+				EA6FD6CA1A0A3542002C4E5E /* HNElibYAML.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA7D99D518689BDD002ACE95 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				EA869B51192B9F4D00810D7D /* HNEYACYAML.xcodeproj */,
+				EA39A66E192613780014D317 /* GCDWebServer */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		EA860ED8194AE3470047BC2B /* OHHttpStubs */ = {
+			isa = PBXGroup;
+			children = (
+				EA860ED9194AE3470047BC2B /* OHHTTPStubs+NSURLSessionConfiguration.m */,
+				EA860EDA194AE3470047BC2B /* OHHTTPStubs.h */,
+				EA860EDB194AE3470047BC2B /* OHHTTPStubs.m */,
+				EA860EDC194AE3470047BC2B /* OHHTTPStubsResponse+HTTPMessage.h */,
+				EA860EDD194AE3470047BC2B /* OHHTTPStubsResponse+HTTPMessage.m */,
+				EA860EDE194AE3470047BC2B /* OHHTTPStubsResponse+JSON.h */,
+				EA860EDF194AE3470047BC2B /* OHHTTPStubsResponse+JSON.m */,
+				EA860EE0194AE3470047BC2B /* OHHTTPStubsResponse.h */,
+				EA860EE1194AE3470047BC2B /* OHHTTPStubsResponse.m */,
+			);
+			name = OHHttpStubs;
+			path = ../Vendor/OHHTTPStubs/OHHTTPStubs/Sources;
+			sourceTree = "<group>";
+		};
+		EA869B45192B90D400810D7D /* testData */ = {
+			isa = PBXGroup;
+			children = (
+				EA0C00421A16363600676F09 /* bindableObjectTests.hone */,
+				EA587E04194AED6600FC3AB4 /* invalidFormatVersion.hone */,
+				EAED4F6A1A5ADFA400522047 /* exampleSpaces.hone */,
+				EA869B46192B90D400810D7D /* example.hone */,
+			);
+			path = testData;
+			sourceTree = "<group>";
+		};
+		EAB5654918BF88D200A5D9A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA2731CA197569B6009EDF56 /* HNEDocumentObject.h */,
+				EA2731CB197569B6009EDF56 /* HNEDocumentObject.m */,
+				EAEDD69019A23B9100BCD320 /* HNEDocumentObject+Private.h */,
+				EA2731CC197569B6009EDF56 /* HNEDocumentParameter.h */,
+				EA2731CD197569B6009EDF56 /* HNEDocumentParameter.m */,
+				EA2731D619756A02009EDF56 /* HNEDocumentParameter+Private.h */,
+				EA04A09B1872B7980024FB12 /* HNERegisteredCallback.h */,
+				EA04A09C1872B7980024FB12 /* HNERegisteredCallback.m */,
+				EA39A6AA1926159E0014D317 /* HNEDeviceServer.h */,
+				EA39A6AB1926159E0014D317 /* HNEDeviceServer.m */,
+				EA3C504F1949BC3C00B71992 /* HNE+iOS.h */,
+				EAB2762A18699D68001CA291 /* HNE+iOS.m */,
+				EAB1C043196442CD007C7FD9 /* HNE+OSX.h */,
+				EAB1C044196442CD007C7FD9 /* HNE+OSX.m */,
+				EA361E2A1861F0CB00415AD1 /* HNE.h */,
+				EA2731D719756C64009EDF56 /* HNE+Private.h */,
+				EA361E2B1861F0CB00415AD1 /* HNE.m */,
+				EA860EE7194AE42A0047BC2B /* HNEError.h */,
+				EA860EE8194AE42A0047BC2B /* HNEError.m */,
+				EA4D56441941935700829D47 /* HNEType.h */,
+				EAAE0E6B1973D95800D40C7D /* HNERegisteredWatcher.h */,
+				EAAE0E6C1973D95800D40C7D /* HNERegisteredWatcher.m */,
+				EADB9F4018719ACA00082692 /* HNEShared.h */,
+				EADB9F4118719ACA00082692 /* HNEShared.m */,
+				EAB5654A18BF893400A5D9A6 /* HNEParameterStore.h */,
+				EA1C0CDB192C9FED00E5198E /* HNEParameterStore+Private.h */,
+				EAB5654B18BF893400A5D9A6 /* HNEParameterStore.m */,
+				EA3C50591949E1BB00B71992 /* HNEParameterStore+Cloud.h */,
+				EA3C505A1949E1BB00B71992 /* HNEParameterStore+Cloud.m */,
+				EACB36E31A10E8900052F42E /* NSObject+HNE.h */,
+				EACB36E41A10E8900052F42E /* NSObject+HNE.m */,
+				EA2343A41A1A01A200B57CAD /* HNEValueMapper.h */,
+				EA2343A51A1A01A200B57CAD /* HNEValueMapper.m */,
+			);
+			name = Model;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EACE57C8195DC4A200C71005 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EACE57C9195DC4A200C71005 /* AppKit.framework */,
+				EACE57CA195DC4A200C71005 /* CoreData.framework */,
+				EACE57CB195DC4A200C71005 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EACE57CC195DC4A200C71005 /* OSX example */ = {
+			isa = PBXGroup;
+			children = (
+				EACE57D8195DC4A200C71005 /* HNEOSXAppDelegate.h */,
+				EACE57D9195DC4A200C71005 /* HNEOSXAppDelegate.m */,
+				EACE57DB195DC4A200C71005 /* MainMenu.xib */,
+				EACE57DE195DC4A200C71005 /* Images.xcassets */,
+				EACE57CD195DC4A200C71005 /* Supporting Files */,
+				EACE57F9195DC57900C71005 /* HNEWindowController.h */,
+				EACE57FA195DC57900C71005 /* HNEWindowController.m */,
+				EACE57FB195DC57900C71005 /* HNEWindowController.xib */,
+				EA7D027019BC83A800A1B528 /* OSX example.hone */,
+			);
+			path = "OSX example";
+			sourceTree = "<group>";
+		};
+		EACE57CD195DC4A200C71005 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACE57CE195DC4A200C71005 /* HoneExampleOSX-Info.plist */,
+				EACE57D2195DC4A200C71005 /* main.m */,
+				EACE57D4195DC4A200C71005 /* HoneExampleOSX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EACE5805195DC76B00C71005 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				EA359CAE19F7BE1F009367FF /* HoneOSX.h */,
+				EA359CAD19F7BE1F009367FF /* Info.plist */,
+				EA55DAC8196FE17600F57221 /* HNEDeveloperWindowController.h */,
+				EA55DAC9196FE17600F57221 /* HNEDeveloperWindowController.m */,
+				EA55DACA196FE17600F57221 /* HNEDeveloperWindowController.xib */,
+			);
+			name = "OS X";
+			path = Source/OSX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA1363CD19F7B6DE005B29AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1363D519F7B6DE005B29AB /* HoneIOS.h in Headers */,
+				EA7B491419F7D041008B25EE /* HNE+iOS.h in Headers */,
+				EA7B491319F7CFD3008B25EE /* HNE.h in Headers */,
+				EACB36E51A10E8900052F42E /* NSObject+HNE.h in Headers */,
+				EA7B494919F7F342008B25EE /* HNEError.h in Headers */,
+				EA2343A61A1A01A200B57CAD /* HNEValueMapper.h in Headers */,
+				EA7B494819F7F342008B25EE /* HNEDeveloperViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA359CA719F7BE1F009367FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA359CAF19F7BE1F009367FF /* HoneOSX.h in Headers */,
+				EA88804B19F8184B00A0D5B7 /* HNEDeveloperWindowController.h in Headers */,
+				EACB36E61A10E8900052F42E /* NSObject+HNE.h in Headers */,
+				EA88804C19F8184B00A0D5B7 /* HNE+OSX.h in Headers */,
+				EA88804E19F8186500A0D5B7 /* HNEError.h in Headers */,
+				EA2343A71A1A01A200B57CAD /* HNEValueMapper.h in Headers */,
+				EA88804D19F8184B00A0D5B7 /* HNE.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA1363CF19F7B6DE005B29AB /* HoneIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1363E319F7B6DF005B29AB /* Build configuration list for PBXNativeTarget "HoneIOS" */;
+			buildPhases = (
+				EA1363CB19F7B6DE005B29AB /* Sources */,
+				EA1363CC19F7B6DE005B29AB /* Frameworks */,
+				EA1363CD19F7B6DE005B29AB /* Headers */,
+				EA1363CE19F7B6DE005B29AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA6FD6CC1A0A3552002C4E5E /* PBXTargetDependency */,
+			);
+			name = HoneIOS;
+			productName = HoneIOS;
+			productReference = EA1363D019F7B6DE005B29AB /* HoneIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA1363D919F7B6DE005B29AB /* HoneIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1363E619F7B6DF005B29AB /* Build configuration list for PBXNativeTarget "HoneIOSTests" */;
+			buildPhases = (
+				EA1363D619F7B6DE005B29AB /* Sources */,
+				EA1363D719F7B6DE005B29AB /* Frameworks */,
+				EA1363D819F7B6DE005B29AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1363DD19F7B6DE005B29AB /* PBXTargetDependency */,
+			);
+			name = HoneIOSTests;
+			productName = HoneIOSTests;
+			productReference = EA1363DA19F7B6DE005B29AB /* HoneIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA2F98D51861EC430069F8F1 /* Hone iOS example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2F990B1861EC430069F8F1 /* Build configuration list for PBXNativeTarget "Hone iOS example" */;
+			buildPhases = (
+				EA2F98D21861EC430069F8F1 /* Sources */,
+				EA2F98D31861EC430069F8F1 /* Frameworks */,
+				EA2F98D41861EC430069F8F1 /* Resources */,
+				EA359CC619F7C334009367FF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA359CC419F7C325009367FF /* PBXTargetDependency */,
+			);
+			name = "Hone iOS example";
+			productName = SwayExample;
+			productReference = EA2F98D61861EC430069F8F1 /* Hone iOS example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA359CA919F7BE1F009367FF /* HoneOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA359CBD19F7BE20009367FF /* Build configuration list for PBXNativeTarget "HoneOSX" */;
+			buildPhases = (
+				EA359CA519F7BE1F009367FF /* Sources */,
+				EA359CA619F7BE1F009367FF /* Frameworks */,
+				EA359CA719F7BE1F009367FF /* Headers */,
+				EA359CA819F7BE1F009367FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA6FD6CF1A0A358B002C4E5E /* PBXTargetDependency */,
+			);
+			name = HoneOSX;
+			productName = HoneOSX;
+			productReference = EA359CAA19F7BE1F009367FF /* HoneOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA359CB319F7BE1F009367FF /* HoneOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA359CC019F7BE20009367FF /* Build configuration list for PBXNativeTarget "HoneOSXTests" */;
+			buildPhases = (
+				EA359CB019F7BE1F009367FF /* Sources */,
+				EA359CB119F7BE1F009367FF /* Frameworks */,
+				EA359CB219F7BE1F009367FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA359CB719F7BE1F009367FF /* PBXTargetDependency */,
+			);
+			name = HoneOSXTests;
+			productName = HoneOSXTests;
+			productReference = EA359CB419F7BE1F009367FF /* HoneOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EACE57C4195DC4A200C71005 /* Hone OSX example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACE57F7195DC4A300C71005 /* Build configuration list for PBXNativeTarget "Hone OSX example" */;
+			buildPhases = (
+				EACE57C1195DC4A200C71005 /* Sources */,
+				EACE57C2195DC4A200C71005 /* Frameworks */,
+				EACE57C3195DC4A200C71005 /* Resources */,
+				EA91DC74196C156100CAF9ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA7B499519F8048D008B25EE /* PBXTargetDependency */,
+			);
+			name = "Hone OSX example";
+			productName = SwayExampleOSX;
+			productReference = EACE57C5195DC4A200C71005 /* Hone OSX example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2F98CE1861EC430069F8F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HNE;
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					EA1363CF19F7B6DE005B29AB = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = C7L3SYGNW5;
+					};
+					EA1363D919F7B6DE005B29AB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EA2F98D51861EC430069F8F1 = {
+						DevelopmentTeam = C7L3SYGNW5;
+					};
+					EA359CA919F7BE1F009367FF = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = C7L3SYGNW5;
+					};
+					EA359CB319F7BE1F009367FF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EACE57C4195DC4A200C71005 = {
+						DevelopmentTeam = C7L3SYGNW5;
+					};
+				};
+			};
+			buildConfigurationList = EA2F98D11861EC430069F8F1 /* Build configuration list for PBXProject "Hone-iosx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				English,
+			);
+			mainGroup = EA2F98CD1861EC430069F8F1;
+			productRefGroup = EA2F98D71861EC430069F8F1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EA6FD6C01A0A3542002C4E5E /* Products */;
+					ProjectRef = EA869B51192B9F4D00810D7D /* HNEYACYAML.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				EA2F98D51861EC430069F8F1 /* Hone iOS example */,
+				EACE57C4195DC4A200C71005 /* Hone OSX example */,
+				EA1363CF19F7B6DE005B29AB /* HoneIOS */,
+				EA1363D919F7B6DE005B29AB /* HoneIOSTests */,
+				EA359CA919F7BE1F009367FF /* HoneOSX */,
+				EA359CB319F7BE1F009367FF /* HoneOSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EA6FD6C61A0A3542002C4E5E /* libHNEYACYAML.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHNEYACYAML.a;
+			remoteRef = EA6FD6C51A0A3542002C4E5E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EA6FD6CA1A0A3542002C4E5E /* HNElibYAML.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = HNElibYAML.a;
+			remoteRef = EA6FD6C91A0A3542002C4E5E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1363CE19F7B6DE005B29AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1363D819F7B6DE005B29AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7B499219F801B5008B25EE /* example.hone in Resources */,
+				EAED4F6B1A5ADFA400522047 /* exampleSpaces.hone in Resources */,
+				EA7B499019F801B2008B25EE /* invalidFormatVersion.hone in Resources */,
+				EA0C00431A16363600676F09 /* bindableObjectTests.hone in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2F98D41861EC430069F8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA42487419756565009B2625 /* Images.xcassets in Resources */,
+				EA2F98ED1861EC430069F8F1 /* Main.storyboard in Resources */,
+				EA81F48E192CC9B800A01285 /* iOS example.hone in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA359CA819F7BE1F009367FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA88805319F8191C00A0D5B7 /* HNEDeveloperWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA359CB219F7BE1F009367FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7B499319F801B5008B25EE /* example.hone in Resources */,
+				EAED4F6C1A5ADFA400522047 /* exampleSpaces.hone in Resources */,
+				EA7B499119F801B3008B25EE /* invalidFormatVersion.hone in Resources */,
+				EA0C00441A16363600676F09 /* bindableObjectTests.hone in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACE57C3195DC4A200C71005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACE57DF195DC4A200C71005 /* Images.xcassets in Resources */,
+				EACE57DD195DC4A200C71005 /* MainMenu.xib in Resources */,
+				EA7D027119BC83A800A1B528 /* OSX example.hone in Resources */,
+				EACE57FD195DC57900C71005 /* HNEWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1363CB19F7B6DE005B29AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7B493B19F7D8BB008B25EE /* HNERegisteredWatcher.m in Sources */,
+				EA7B492E19F7D643008B25EE /* HNEShared.m in Sources */,
+				EA7B494319F7D9EA008B25EE /* HNE+iOS.m in Sources */,
+				EA7B494519F7DC3E008B25EE /* UIColor+HNEColorWithArray.m in Sources */,
+				EA7B492619F7D607008B25EE /* GCDWebServerDataResponse.m in Sources */,
+				EA2343A81A1A01A200B57CAD /* HNEValueMapper.m in Sources */,
+				EA7B491819F7D5ED008B25EE /* GCDWebServer.m in Sources */,
+				EA7B491619F7D4D0008B25EE /* HNEDocumentParameter.m in Sources */,
+				EACB36E71A10E8900052F42E /* NSObject+HNE.m in Sources */,
+				EA7B491C19F7D5F3008B25EE /* GCDWebServerFunctions.m in Sources */,
+				EA7B492C19F7D610008B25EE /* GCDWebServerStreamedResponse.m in Sources */,
+				EA7B493219F7D656008B25EE /* HNEParameterStore+Cloud.m in Sources */,
+				EA7B492019F7D5F8008B25EE /* GCDWebServerResponse.m in Sources */,
+				EA7B493019F7D653008B25EE /* HNEParameterStore.m in Sources */,
+				EA7B493D19F7D8C5008B25EE /* HNEDocumentObject.m in Sources */,
+				EA7B491A19F7D5F0008B25EE /* GCDWebServerConnection.m in Sources */,
+				EA7B493619F7D69F008B25EE /* HNEError.m in Sources */,
+				EA7B492819F7D60A008B25EE /* GCDWebServerErrorResponse.m in Sources */,
+				EA7B491719F7D4D4008B25EE /* HNEDeviceServer.m in Sources */,
+				EA7B492419F7D5FF008B25EE /* GCDWebServerFileRequest.m in Sources */,
+				EA88805119F818EF00A0D5B7 /* NSLayoutConstraint+HNEHelpers.m in Sources */,
+				EA7B492A19F7D60D008B25EE /* GCDWebServerFileResponse.m in Sources */,
+				EA7B491E19F7D5F5008B25EE /* GCDWebServerRequest.m in Sources */,
+				EA7B491519F7D122008B25EE /* HNE.m in Sources */,
+				EA7B494619F7DC4A008B25EE /* HNEFont+HNETypography.m in Sources */,
+				EA7B494119F7D946008B25EE /* NSData+YamlFormatHacks.m in Sources */,
+				EA7B493419F7D65A008B25EE /* HNERegisteredCallback.m in Sources */,
+				EA7B492219F7D5FD008B25EE /* GCDWebServerDataRequest.m in Sources */,
+				EA7B494419F7DA9A008B25EE /* HNEDeveloperViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1363D619F7B6DE005B29AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7B498819F80015008B25EE /* OHHTTPStubsResponse+HTTPMessage.m in Sources */,
+				EA7B498A19F80019008B25EE /* OHHTTPStubsResponse+JSON.m in Sources */,
+				EAA043331AF2275D007FC5CB /* HNEObjectBindingTests.m in Sources */,
+				EA7B496D19F7F816008B25EE /* HNEDocumentParameterTests.m in Sources */,
+				EA7B497519F7F82A008B25EE /* HNEParameterStoreCloudTests.m in Sources */,
+				EA7B497B19F7F835008B25EE /* HNEParameterStoreTests.m in Sources */,
+				EAA317C81A0A282F00978226 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */,
+				EA7B497119F7F81C008B25EE /* HNEDiskDocumentTests.m in Sources */,
+				EA7B497719F7F82D008B25EE /* HNEGetterTests.m in Sources */,
+				EA7B497D19F7F838008B25EE /* HNEStartingTests.m in Sources */,
+				EA7B497919F7F831008B25EE /* HNEGetterWithDefaultsTests.m in Sources */,
+				EA7B498C19F8001C008B25EE /* OHHTTPStubsResponse.m in Sources */,
+				EA7B498619F80012008B25EE /* OHHTTPStubs.m in Sources */,
+				EA7B496B19F7F811008B25EE /* HNEGetterWithBlocksTests.m in Sources */,
+				EA7B496F19F7F818008B25EE /* HNEParameterTests.m in Sources */,
+				EA2343AD1A1A085600B57CAD /* HNEValueMapperTests.m in Sources */,
+				EA7B498119F7F83F008B25EE /* HNEStressTests.m in Sources */,
+				EA7B497319F7F827008B25EE /* HNEKeypathBindingTests.m in Sources */,
+				EA7B497F19F7F83B008B25EE /* HNEWatchingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2F98D21861EC430069F8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2F98EA1861EC430069F8F1 /* HNEIOSAppDelegate.m in Sources */,
+				EA2F98E61861EC430069F8F1 /* main.m in Sources */,
+				EAA543DF18BE3B2D00EA8FAC /* HNETestView.m in Sources */,
+				EA2F98F31861EC430069F8F1 /* HNEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA359CA519F7BE1F009367FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA88804619F8169B00A0D5B7 /* HNEDocumentParameter.m in Sources */,
+				EA7B492F19F7D645008B25EE /* HNEShared.m in Sources */,
+				EA88805219F818F100A0D5B7 /* HNEFont+HNETypography.m in Sources */,
+				EA7B491F19F7D5F6008B25EE /* GCDWebServerRequest.m in Sources */,
+				EA7B492719F7D608008B25EE /* GCDWebServerDataResponse.m in Sources */,
+				EA2343A91A1A01A200B57CAD /* HNEValueMapper.m in Sources */,
+				EA7B493319F7D656008B25EE /* HNEParameterStore+Cloud.m in Sources */,
+				EA7B491B19F7D5F0008B25EE /* GCDWebServerConnection.m in Sources */,
+				EACB36E81A10E8900052F42E /* NSObject+HNE.m in Sources */,
+				EA88804F19F818E500A0D5B7 /* NSColor+HNEColorWithArray.m in Sources */,
+				EA7B492319F7D5FD008B25EE /* GCDWebServerDataRequest.m in Sources */,
+				EA7B492519F7D600008B25EE /* GCDWebServerFileRequest.m in Sources */,
+				EA7B493519F7D65A008B25EE /* HNERegisteredCallback.m in Sources */,
+				EA7B494219F7D946008B25EE /* NSData+YamlFormatHacks.m in Sources */,
+				EA88804919F8177200A0D5B7 /* HNEDeviceServer.m in Sources */,
+				EA7B492119F7D5F9008B25EE /* GCDWebServerResponse.m in Sources */,
+				EA88805019F818ED00A0D5B7 /* NSLayoutConstraint+HNEHelpers.m in Sources */,
+				EA88804A19F8177700A0D5B7 /* HNE+OSX.m in Sources */,
+				EA88804819F8176800A0D5B7 /* HNE.m in Sources */,
+				EA7B492919F7D60B008B25EE /* GCDWebServerErrorResponse.m in Sources */,
+				EA7B493C19F7D8BC008B25EE /* HNERegisteredWatcher.m in Sources */,
+				EA7B493719F7D69F008B25EE /* HNEError.m in Sources */,
+				EA7B491919F7D5ED008B25EE /* GCDWebServer.m in Sources */,
+				EA7B493E19F7D8C6008B25EE /* HNEDocumentObject.m in Sources */,
+				EA7B491D19F7D5F3008B25EE /* GCDWebServerFunctions.m in Sources */,
+				EA7B492D19F7D610008B25EE /* GCDWebServerStreamedResponse.m in Sources */,
+				EA7B492B19F7D60E008B25EE /* GCDWebServerFileResponse.m in Sources */,
+				EA7B493119F7D653008B25EE /* HNEParameterStore.m in Sources */,
+				EA88804719F8175F00A0D5B7 /* HNEDeveloperWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA359CB019F7BE1F009367FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7B498919F80016008B25EE /* OHHTTPStubsResponse+HTTPMessage.m in Sources */,
+				EA7B498B19F8001A008B25EE /* OHHTTPStubsResponse+JSON.m in Sources */,
+				EABBC36E1AF22F9D001DB1A9 /* HNEObjectBindingTests.m in Sources */,
+				EA8A7DA51A1A242A0011CDFA /* HNEParameterTests.m in Sources */,
+				EAA317CA1A0A28D600978226 /* HNEGetterWithBlocksTests.m in Sources */,
+				EA7B497619F7F82B008B25EE /* HNEParameterStoreCloudTests.m in Sources */,
+				EA2343AF1A1A0A2400B57CAD /* HNEValueMapperTests.m in Sources */,
+				EAA317CB1A0A28D900978226 /* HNEDocumentParameterTests.m in Sources */,
+				EA7B498D19F8001D008B25EE /* OHHTTPStubsResponse.m in Sources */,
+				EA7DBFFF1AA48B8C0091C741 /* HNEStartingTests.m in Sources */,
+				EAA317CD1A0A2ABB00978226 /* HNEDiskDocumentTests.m in Sources */,
+				EA7B498719F80012008B25EE /* OHHTTPStubs.m in Sources */,
+				EAA317C91A0A283000978226 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */,
+				EAA317CF1A0A2B6F00978226 /* HNEParameterStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACE57C1195DC4A200C71005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACE57FC195DC57900C71005 /* HNEWindowController.m in Sources */,
+				EACE57DA195DC4A200C71005 /* HNEOSXAppDelegate.m in Sources */,
+				EACE57D3195DC4A200C71005 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA1363DD19F7B6DE005B29AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1363CF19F7B6DE005B29AB /* HoneIOS */;
+			targetProxy = EA1363DC19F7B6DE005B29AB /* PBXContainerItemProxy */;
+		};
+		EA359CB719F7BE1F009367FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA359CA919F7BE1F009367FF /* HoneOSX */;
+			targetProxy = EA359CB619F7BE1F009367FF /* PBXContainerItemProxy */;
+		};
+		EA359CC419F7C325009367FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1363CF19F7B6DE005B29AB /* HoneIOS */;
+			targetProxy = EA359CC319F7C325009367FF /* PBXContainerItemProxy */;
+		};
+		EA6FD6CC1A0A3552002C4E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HNEYACYAML;
+			targetProxy = EA6FD6CB1A0A3552002C4E5E /* PBXContainerItemProxy */;
+		};
+		EA6FD6CF1A0A358B002C4E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HNEYACYAML;
+			targetProxy = EA6FD6CE1A0A358B002C4E5E /* PBXContainerItemProxy */;
+		};
+		EA7B499519F8048D008B25EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA359CA919F7BE1F009367FF /* HoneOSX */;
+			targetProxy = EA7B499419F8048D008B25EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA2F98EB1861EC430069F8F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2F98EC1861EC430069F8F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EACE57DB195DC4A200C71005 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACE57DC195DC4A200C71005 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1363E419F7B6DF005B29AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Library/Source/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA1363E519F7B6DF005B29AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Library/Source/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA1363E719F7B6DF005B29AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_ROOT)/Library/Source/**",
+				);
+				INFOPLIST_FILE = Library/Tests/HoneIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA1363E819F7B6DF005B29AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_ROOT)/Library/Source/**",
+				);
+				INFOPLIST_FILE = Library/Tests/HoneIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA2F99091861EC430069F8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA2F990A1861EC430069F8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2F990C1861EC430069F8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(PROJECT_DIR)/iOS example\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS example/HoneExample-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/iOS example/HoneExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "58560d58-71fd-4f08-8ef7-d10775025424";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA2F990D1861EC430069F8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(PROJECT_DIR)/iOS example\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS example/HoneExample-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/iOS example/HoneExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "58560d58-71fd-4f08-8ef7-d10775025424";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA359CBE19F7BE20009367FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Library/Source/OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA359CBF19F7BE20009367FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Library/Source/OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA359CC119F7BE20009367FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Library/Tests/HoneOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA359CC219F7BE20009367FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Library/Tests/HoneOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EACE57F1195DC4A300C71005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSX example/HoneExampleOSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "$(SRCROOT)/OSX example/HoneExampleOSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EACE57F2195DC4A300C71005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSX example/HoneExampleOSX-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "$(SRCROOT)/OSX example/HoneExampleOSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1363E319F7B6DF005B29AB /* Build configuration list for PBXNativeTarget "HoneIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1363E419F7B6DF005B29AB /* Debug */,
+				EA1363E519F7B6DF005B29AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1363E619F7B6DF005B29AB /* Build configuration list for PBXNativeTarget "HoneIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1363E719F7B6DF005B29AB /* Debug */,
+				EA1363E819F7B6DF005B29AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2F98D11861EC430069F8F1 /* Build configuration list for PBXProject "Hone-iosx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2F99091861EC430069F8F1 /* Debug */,
+				EA2F990A1861EC430069F8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2F990B1861EC430069F8F1 /* Build configuration list for PBXNativeTarget "Hone iOS example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2F990C1861EC430069F8F1 /* Debug */,
+				EA2F990D1861EC430069F8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA359CBD19F7BE20009367FF /* Build configuration list for PBXNativeTarget "HoneOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA359CBE19F7BE20009367FF /* Debug */,
+				EA359CBF19F7BE20009367FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA359CC019F7BE20009367FF /* Build configuration list for PBXNativeTarget "HoneOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA359CC119F7BE20009367FF /* Debug */,
+				EA359CC219F7BE20009367FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACE57F7195DC4A300C71005 /* Build configuration list for PBXNativeTarget "Hone OSX example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACE57F1195DC4A300C71005 /* Debug */,
+				EACE57F2195DC4A300C71005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA2F98CE1861EC430069F8F1 /* Project object */;
+}

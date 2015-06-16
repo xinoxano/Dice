@@ -1,0 +1,24 @@
+
+#import <Foundation/Foundation.h>
+
+FOUNDATION_EXTERN NSString *const HNEBonjourServiceType;
+
+FOUNDATION_EXTERN NSString *const HNEDidReceiveValuesFromLocalNetworkNotification;
+
+
+
+#if TARGET_OS_IPHONE
+#define HNEColor UIColor
+#define HNEFont UIFont
+#define HNEFontDescriptor UIFontDescriptor
+#define HNEFontFeatureTypeIdentifierKey UIFontFeatureTypeIdentifierKey
+#define HNEFontFeatureSelectorIdentifierKey UIFontFeatureSelectorIdentifierKey
+#define HNEFontFeatureSettingsAttribute (__bridge NSString *)kCTFontFeatureSettingsAttribute
+#else
+#define HNEColor NSColor
+#define HNEFont NSFont
+#define HNEFontDescriptor NSFontDescriptor
+#define HNEFontFeatureTypeIdentifierKey NSFontFeatureTypeIdentifierKey
+#define HNEFontFeatureSelectorIdentifierKey NSFontFeatureSelectorIdentifierKey
+#define HNEFontFeatureSettingsAttribute NSFontFeatureSettingsAttribute
+#endif

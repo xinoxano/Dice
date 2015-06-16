@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="HNEWindowController">
+            <connections>
+                <outlet property="boxWidthConstraint" destination="5tX-sK-F1U" id="MPP-Gl-gg5"/>
+                <outlet property="customView" destination="k26-yL-VvA" id="fUB-t3-ZED"/>
+                <outlet property="label" destination="SSQ-3G-gcf" id="lHi-Ic-rgC"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="k26-yL-VvA">
+                        <rect key="frame" x="20" y="75" width="205" height="175"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SSQ-3G-gcf">
+                                <rect key="frame" x="18" y="138" width="154" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Hello world 0123456789" id="mkf-Dy-hjk">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="205" id="5tX-sK-F1U"/>
+                            <constraint firstAttribute="height" constant="175" id="Bl0-G7-2fU"/>
+                            <constraint firstItem="SSQ-3G-gcf" firstAttribute="leading" secondItem="k26-yL-VvA" secondAttribute="leading" constant="20" id="DCh-DD-K0Y"/>
+                            <constraint firstItem="SSQ-3G-gcf" firstAttribute="top" secondItem="k26-yL-VvA" secondAttribute="top" constant="20" id="OIS-uf-VHO"/>
+                        </constraints>
+                    </customView>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eWc-qc-r01">
+                        <rect key="frame" x="14" y="13" width="195" height="32"/>
+                        <buttonCell key="cell" type="push" title="Show Hone Developer UI" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Zwi-kf-mk9">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showHoneDeveloperUi:" target="-2" id="w9k-ge-8GB"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eWc-qc-r01" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="20" id="Ugw-zd-kW6"/>
+                    <constraint firstItem="k26-yL-VvA" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="20" id="ZYv-gf-mxc"/>
+                    <constraint firstAttribute="bottom" secondItem="eWc-qc-r01" secondAttribute="bottom" constant="20" id="tbM-lc-yAf"/>
+                    <constraint firstItem="k26-yL-VvA" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="20" id="wfd-ns-w4g"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+        </window>
+    </objects>
+</document>

@@ -1,0 +1,4 @@
+boxes:
+  backgroundColor~color: [ 1, 0.7149317860603333, 0.7477864623069763, 1 ]
+oneBox:
+  rotation~float: -45
