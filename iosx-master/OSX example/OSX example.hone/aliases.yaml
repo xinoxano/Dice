@@ -1,6 +1,0 @@
-box:
-  values:
-    boxWidthConstraint.constant: Box width
-    label.font: Font
-    label.stringValue: Text
-    layer.backgroundColor: Box background
